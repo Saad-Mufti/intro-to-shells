@@ -1,0 +1,12 @@
+The ever-growing popularity of large language models (LLM) across many domains has brought a
+ significant limitation to center stage: their tendency to “hallucinate”– which is often used to describe the generation of inaccurate information. But what are hallucinations, and what causes them?
+ A considerable body of research has sought to define, taxonomize, and understand hallucinations
+ through extrinsic, behavioral analysis, primarily examining how users perceive such errors (Bang
+ et al., 2023; Ji et al., 2023; Huang et al., 2023a; Rawte et al., 2023). However, this approach does
+ not adequately address how these errors are encoded within the LLMs. Alternatively, another line
+ of work has explored the internal representations of LLMs, suggesting that LLMs encode signals
+ of truthfulness (Kadavath et al., 2022; Li et al., 2024; Chen et al., 2024, inter alia). However,
+ these analyses were typically restricted to 
+ detecting errors—determining whether a generated output
+ contains inaccuracies—without delving deeper into how such signals are represented and could be
+ leveraged to understand or mitigate hallucinations.
